@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 
 /* ----------- CONFIG ----------- */
-const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS || "0x00511d4C609F3390F315B78d02f4Ec891Cb6aD7d";
+const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS || "";
 const SEPOLIA_CHAIN_ID = "0xaa36a7"; // 11155111 in hex
 
 const CONTRACT_ABI = [
